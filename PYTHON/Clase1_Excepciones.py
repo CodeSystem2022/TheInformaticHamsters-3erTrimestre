@@ -13,8 +13,17 @@ except ZeroDivisionError as ex:
     print(f'Ocurrio un error: {ex}')
 
 
-# 1.2 Procesamiento de excepciones - Alumno:
+# 1.2 Procesamiento de excepciones - Alumno: Giuliana Dealbera Etchechoury
 
+result = None
+a = 10
+b = 0
+try:
+    result = a / b 
+except ZeroDivisionError as error:
+    print(f'Ocurrió un error: {error}')
+
+print(f'El resultado es: {result}')
 
 # 1.3 Procesar clases de exception más específicas - Alumno:
 
@@ -25,6 +34,8 @@ except ZeroDivisionError as ex:
 # 1.5 Bloques else y finally al manejar excepciones - Alumno:
 
 
-# 1.6 Creación de clases de Exception personalizadas - Alumno:
+# 1.6 Creación de clases de Exception personalizadas - Alumno: 
+
+
 
 
