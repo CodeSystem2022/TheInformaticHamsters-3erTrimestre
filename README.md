@@ -24,3 +24,4 @@
 | **Sprint** | **Scrum Asignado** 👨‍💻 |
 | ------------- |:-------------:|
 | Semana 1 | *Nicolas Segovia* |
+| Semana 2 | *Giuliana Dealbera E* |
