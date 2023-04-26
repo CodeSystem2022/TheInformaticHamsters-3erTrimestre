@@ -21,9 +21,12 @@ console.log("Fin de ciclo while");
 
 
 
-// 1.3 Ciclo For - Alumno: 
+// 1.3 Ciclo For - Alumno: Giuliana Dealbera Etchechoury
 
-
+for(let contFor = 0; contFor < 3; contFor++){
+    console.log(contFor); //0, 1, 2
+}
+console.log("Fin del ciclo FOR")
 
 // 1.4 Palabra reservada Break - Alumno: 
 
