@@ -15,4 +15,7 @@ Scrum Master: Giuliana Dealbera Etchechoury
 
 # 2.5 Uso de WITH, archivos y contexto Manager I - Alumno: 
 
+with open('prueba.txt', 'r', encoding='utf8') as archivo:
+    print(archivo.read())
+
 # 2.6 Uso de WITH, archivos y contexto Manager II - Alumno: 
