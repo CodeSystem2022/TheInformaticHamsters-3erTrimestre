@@ -17,7 +17,13 @@ while(contador < 3){
 
 console.log("Fin de ciclo while");
 
-// 1.2 Ciclo do While - Alumno:
+// 1.2 Ciclo do While - Alumno: Miguel Rodriguez Saquilan
+let contDoWhile = 0;
+do{
+    console.log(contDoWhile); 
+    conteo ++;
+}while(contDoWhile < 3);
+console.log("Fin del ciclo DO WHILE");
 
 
 
