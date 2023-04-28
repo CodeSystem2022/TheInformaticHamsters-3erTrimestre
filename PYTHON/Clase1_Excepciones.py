@@ -25,8 +25,21 @@ except ZeroDivisionError as error:
 
 print(f'El resultado es: {result}')
 
-# 1.3 Procesar clases de exception más específicas - Alumno:
+# 1.3 Procesar clases de exception más específicas - Alumno: Nadia Acosta
 
+resultado = None
+a = 10
+b = 0
+try:
+    resultado = a / b
+except TypeError as ex:
+    print(f'TypeError - Ocurrio un error: {type(ex)}')
+except ZeroDivisionError as ex:
+    print(f'Ocurrio un error: {ex}')
+except Exception as ex:
+    print(f'Ocurrio un error: {ex}')
+print(f'El resiltado es: {resultado}')
+print(f'seguimos...')
 
 # 1.4 Más de procedimientos de excepciones - Alumno:
 
