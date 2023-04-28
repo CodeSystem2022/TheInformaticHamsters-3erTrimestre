@@ -42,12 +42,16 @@ for(let contando = 0; contando <= 10; contando++ ){
     }
 }
 
+// 1.5 Palabra reservada Continue - Alumno: Juan Pablo Nolan
 
+for(let contando = 0; contando < 10; contando++){
+    //separo pares de impares
+    if(contando % 2 !== 0){
+        continue; // ir a la siguiente iteracion
+    }
+    console.log(contando);
+}
 
-
-
-// 1.5 Palabra reservada Continue - Alumno: 
-
-
+console.log("Termina el ciclo");
 
 // 1.6 Etiquetas Labels - Alumno:
