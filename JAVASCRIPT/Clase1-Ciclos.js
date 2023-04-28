@@ -28,7 +28,15 @@ for(let contFor = 0; contFor < 3; contFor++){
 }
 console.log("Fin del ciclo FOR")
 
-// 1.4 Palabra reservada Break - Alumno: 
+// 1.4 Palabra reservada Break - Alumno: Marcelo Quispe
+for(let contando = 0; contando <= 10; contando++ ){
+    if(contando % 2 == 0){
+        console.log(contando); // muestra todos los pares
+        break;
+    }
+}
+
+
 
 
 
