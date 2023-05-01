@@ -47,7 +47,13 @@ print(f'seguimos...')
 # 1.5 Bloques else y finally al manejar excepciones - Alumno:
 
 
-# 1.6 Creación de clases de Exception personalizadas - Alumno: 
+# 1.6 Creación de clases de Exception personalizadas - Alumno: Miguel Rodriguez Saquilan
+
+class NumerosIgualesException (Exception): # Extiende de la clase
+    def __init__(self, mensaje) -> None:
+        self.message = mensaje
+        
+
 
 
 
