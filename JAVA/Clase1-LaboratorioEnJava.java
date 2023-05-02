@@ -10,8 +10,24 @@ Scrum Master: Nicolas Segovia
 
 
 
-// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: 
+// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: Giuliana Paola Diaz Luna
 
+package ar.com.system2023.mundopc;
+
+public class Raton extends DispositivoEntrada{
+    private final int idRaton;
+    private static int contadorRatones;
+    
+    public Raton(String tipoEntrada, String marca) {
+        super(tipoEntrada, marca);
+        this.idRaton = ++Raton.contadorRatones;
+    }
+
+    @Override
+    public String toString() {
+        return "Raton{" + "idRaton=" + idRaton + ", "+super.toString()+'}';
+    }
+}
 
 // 1.3 Creamos la clase Monitor - Alumno: Juan Pablo Nolan
 
