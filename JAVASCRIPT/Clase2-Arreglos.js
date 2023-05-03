@@ -39,4 +39,11 @@ console.log(autos);
 autos[6] = 'Renault';
 console.log(autos); ['Ferrari', 'Volvo', 'BMW', 'Audi', 'Porche', 'Renault']
 
-// 2.4 Preguntamos si es un Array - Alumno: 
+// 2.4 Preguntamos si es un Array - Alumno: Juan Pablo Nolan
+
+// Como preguntar si es una Array o Arreglo 
+//Con las CLASE ARRAY
+console.log(Array.isArray(autos2)); // Devuelve un bool
+
+// CON INSTANCEOF
+console.log(autos2 instanceof Array); // Preguntamos si la variable es una instacia de la calse Array.

@@ -21,7 +21,22 @@ finally : #siempre se ejecuta
 
 # archivo.write('Todo quedó perfecto'): este es un error!
 
-# 2.3 Lectura de archivos - Alumno: 
+# 2.3 Lectura de archivos - Alumno: Juan Pablo Nolan
+
+#archivo = open('prueba.txt', 'r', encoding='utf8') # 'r', de 'read', para leer
+# print(archivo.read())
+
+# parametro 'a', lo utilizamos para anexar informacion a un archivo que ya contiene cierta informarcion.
+# de esta manera, cuando escribimos nueva informacion no se borra la anterior, sino se agrega.
+archivo = open('prueba.txt', 'a', encoding='utf8')
+
+# Especifico los caracteres a mostrar
+print(archivo.read(16))
+print(archivo.read(10))
+
+# Leo toda una linea
+print(archivo.readline())
+print(archivo.readline())
 
 # 2.4 Más formas de trabajar con archivos - Alumno: 
 
