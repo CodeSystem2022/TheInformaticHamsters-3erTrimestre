@@ -7,7 +7,19 @@ Scrum Master: Giuliana Dealbera Etchechoury
 
 # 2.1 Introducción a lo que es el manejo de archivos - Alumno: 
 
-# 2.2 Especificar el juego de caracteres de un archivo de texto - Alumno: 
+# 2.2 Especificar el juego de caracteres de un archivo de texto - Alumno: Giuliana Paola Diaz Luna
+
+archivo = open('prueba.txt', 'w', encoding='utf8') # Si este archivo no existe, lo va a crear. 'w', de 'write', escribir
+
+try:
+    archivo.write("Programamos con diferentes tipos de archivos, ahora en .txt\n")
+    archivo.write("Agrego palabras con acentos: \n")
+    archivo.write("- Programación\n")
+    archivo.write("- Introducción\n")
+except Exception as ex:
+    print(ex)
+finally:
+    archivo.close()
 
 # 2.3 Lectura de archivos - Alumno: 
 

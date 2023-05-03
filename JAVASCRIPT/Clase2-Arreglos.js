@@ -25,4 +25,7 @@ for(let elemento = 0; elemento < autos2.length; elemento++){
 
 // 2.3 Modificamos los elementos - Alumno: 
 
-// 2.4 Preguntamos si es un Array - Alumno: 
+// 2.4 Preguntamos si es un Array - Alumno: Giuliana Paola Diaz Luna
+console.log(Array.isArray(autos)); // Devuelve un booleano
+
+console.log(autos instanceof Array); //Preguntamos si la variable es una instancia de la clase Array
