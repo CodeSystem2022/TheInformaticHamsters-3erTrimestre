@@ -200,7 +200,38 @@ public class Orden {
 
 // 1.6 Comenzamos las pruebas creando objetos de cada clase y las agregamos a 
 // la lista de Orden: Parte 1, 2 y 3 - Alumno:
+package mundopc;
 
+import ar.com.system2023.mundopc.*;
+
+public class mundoPC {
+    public static void main(String[] args) {
+        Monitor monitorHP = new Monitor("HP", 13);// IMPortar la clase
+        Teclado tecladoHP = new Teclado("Bluetooth", "HP");
+        Raton ratonHP = new Raton("bluetooth", " HP");
+        Computadora computadoraHP = new Computadora(" Computadora HP", monitorHP, tecladoHP, ratonHP);
+        
+        // Creamos objetos de diferentes marcas 
+        Monitor monitorGamer = new Monitor("Gamer", 32);
+        Teclado tecladoGamer = new Teclado("Bluetooth", "Gamer");
+        Raton ratonGamer = new Raton("bluetooth", " Gamer");
+        Computadora computadoraGamer = new Computadora(" Computadora Gamer", monitorGamer, tecladoGamer, ratonGamer);
+        Orden orden1 = new Orden();
+        Orden orden2 = new Orden(); // Una nueva lista para el objeto orden2
+        orden1.agregarComputadora(computadoraHP);
+        orden1.agregarComputadora(computadoraGamer);
+        
+        Computadora computadorasVarias = new Computadora("Computadora de diferentes marcas", monitorHP, tecladoGamer, ratonHP);
+        orden2.agregarComputadora(computadorasVarias);
+        
+        orden1.mostarOrden();
+        orden2.mostarOrden();
+        
+        // Crear mas objetos de tipo computadora  con todos sus elementos.
+        // completar una lista en el objeto  orden1 que llegue a los 10 elementos
+        // probar de esta manera los metodos al mzximo rendimiento
+    }
+}
 
 
 

@@ -5,7 +5,12 @@ Team: The Informatic Hamsters
 Scrum Master: Giuliana Dealbera Etchechoury
 */
 
+// 2.1 Arreglos en JavaScript - Alumno: Marcelo Quispe
 
+// Creacion de Array o arreglos
+// let autos = new Array('Ferrari', 'Renault', 'BMW'); ESTA ES LA VIEJA SINTAXIS
+const autos = ['Ferrari', 'Renault', 'BMW'];
+console.log(autos);
 
 // 2.1 Arreglos en JavaScript - Alumno: Nicolas Segovia
 
@@ -16,6 +21,7 @@ let autos = new Array("Ferrari", "Renault", "BMW");
 const autos2 = ["Ferrari", "Renault", "BMW"];
 // con const asignamos la referencia en memoria del arreglo, el cual no se va a poder modificar
 // lo que si se podra modificar es el contenido. 
+
 
 // 2.2 Recorremos los elementos de un arreglo - Alumno: Giuliana Dealbera Etchechoury
 
