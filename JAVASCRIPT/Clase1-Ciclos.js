@@ -17,7 +17,13 @@ while(contador < 3){
 
 console.log("Fin de ciclo while");
 
-// 1.2 Ciclo do While - Alumno:
+// 1.2 Ciclo do While - Alumno: Miguel Rodriguez Saquilan
+let contDoWhile = 0;
+do{
+    console.log(contDoWhile); 
+    conteo ++;
+}while(contDoWhile < 3);
+console.log("Fin del ciclo DO WHILE");
 
 
 
@@ -36,12 +42,36 @@ for(let contando = 0; contando <= 10; contando++ ){
     }
 }
 
+// 1.5 Palabra reservada Continue - Alumno: Juan Pablo Nolan
+
+for(let contando = 0; contando < 10; contando++){
+    //separo pares de impares
+    if(contando % 2 !== 0){
+        continue; // ir a la siguiente iteracion
+    }
+    console.log(contando);
+}
+
+console.log("Termina el ciclo");
 
 
+// 1.6 Etiquetas Labels - Alumno:Nadia Acosta
+inicio: 
+for(let contando = 0; contando <= 10; contando++){
+    if(contando % 2 !== 0){
+        break inicio; 
+    } 
+    console.log(contando); 0
+}
+console.log("Termina el ciclo");
 
+// 1.6 Etiquetas Labels - Alumno: Giuliana Paola Diaz Luna
+inicio:
+for(let contando= 0; contando <= 10; contando++){
+    if(contando % 2 !==0){
+        break inicio; //va a la siguiente iteración
+    }
+    console.log(contando);
+}
+console.log("Termina el ciclo")
 
-// 1.5 Palabra reservada Continue - Alumno: 
-
-
-
-// 1.6 Etiquetas Labels - Alumno:

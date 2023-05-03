@@ -10,11 +10,93 @@ Scrum Master: Nicolas Segovia
 
 
 
-// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: 
+
+// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: Nadia Acosta
+package ar.com.system2023.mundopc;
+
+public class Raton extends DispositivoEntrada {
+    private final int idRaton;
+    private static int contadorRatones;
+
+    public Raton(String tipoEntrada, String marca){
+        super(tipoEntrada, marca) ;
+        this.idRaton = ++Raton.contadorRatones;
+    }
+    
+    @Override 
+    public String toString() {
+        return "Raton{" + "idRaton=" + idRaton + ", "+super.toString()+ '}';
+    }
+
+}
+
+// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: Giuliana Paola Diaz Luna
 
 
-// 1.3 Creamos la clase Monitor - Alumno:
+package ar.com.system2023.mundopc;
 
+public class Raton extends DispositivoEntrada{
+    private final int idRaton;
+    private static int contadorRatones;
+    
+    public Raton(String tipoEntrada, String marca) {
+        super(tipoEntrada, marca);
+        this.idRaton = ++Raton.contadorRatones;
+    }
+
+    @Override
+    public String toString() {
+        return "Raton{" + "idRaton=" + idRaton + ", "+super.toString()+'}';
+    }
+}
+
+// 1.3 Creamos la clase Monitor - Alumno: Juan Pablo Nolan
+
+package ar.com.system2023.mundopc;
+
+public class Monitor {
+    private final int idMonitor;
+    private String marca;
+    private double tamanio;
+    private static int contadorMonitores;
+    
+    private Monitor(){
+        this.idMonitor = ++Monitor.contadorMonitores;
+    }
+
+    public Monitor(String marca, double tamanio){
+        this(); //llamado al constructor vacio
+        this.marca = marca;
+        this.tamanio = tamanio;
+        
+    }
+
+    public String getMarca() {
+        return this.marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public double getTamanio() {
+        return this.tamanio;
+    }
+
+    public void setTamanio(double tamanio) {
+        this.tamanio = tamanio;
+    }
+
+    //Ingresamos manualmente el getIdMonitor
+    public int getidMonitor() {
+        return this.idMonitor;
+    }
+
+    @Override
+    public String toString() {
+        return "Monitor{" + "idMonitor=" + idMonitor + ", marca=" + marca + ", tamanio=" + tamanio + '}';
+    }   
+}
 
 // 1.4 Creamos la clase Computadora - Alumno: Giuliana Dealbera Etchechoury
 
@@ -79,7 +161,41 @@ public class Computadora {
 }
 
 
-// 1.5 Creamos la clase Orden: Parte 1 y 2 - Alumno:
+// 1.5 Creamos la clase Orden: Parte 1 y 2 - Alumno:Miguel Rodriguez Saquilan
+package ar.com.system2023.mundopc;
+
+public class Orden {
+    private final int idOrden;
+    private Computadora computadora[]; // Arreglo de objetos
+    private static int contadorOrdenes;
+    private static final  int MAX_COMPUTADORAS = 10;
+    private int contadorComputadora;
+    
+    //Constructor vacio
+    
+    public Orden(){
+        this.idOrden = ++Orden.contadorOrdenes;
+        this.computadora = new Computadora[Orden.MAX_COMPUTADORAS];
+    }
+    
+   //Metodo para agregar una nueva computadora al arreglo
+    public void agregarComputadora(Computadora computadora){
+        if (this.contadorComputadora < Orden.MAX_COMPUTADORAS){
+            this.computadora[this.contadorComputadora++] = computadora;
+        }
+        else{
+            System.out.println("Has superado el limite " +Orden.MAX_COMPUTADORAS);
+        }
+    }
+    //Mostrar orden
+    public void mostarOrden(){
+        System.out.println("Orden  #:"+this.idOrden);
+        System.out.println("Computadoras de la orden #: " + this.idOrden);
+        for(int i = 0; i < this.contadorComputadora; i++){
+            System.out.println(this.computadora[i]);
+        }
+    }
+}
 
 
 // 1.6 Comenzamos las pruebas creando objetos de cada clase y las agregamos a 
@@ -117,7 +233,7 @@ public class mundoPC {
     }
 }
 
-// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno:
+
 
 
 
