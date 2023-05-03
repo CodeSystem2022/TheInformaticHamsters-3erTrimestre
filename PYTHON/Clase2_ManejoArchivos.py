@@ -13,9 +13,16 @@ Scrum Master: Giuliana Dealbera Etchechoury
 
 # 2.4 Más formas de trabajar con archivos - Alumno: 
 
-# 2.5 Uso de WITH, archivos y contexto Manager I - Alumno: 
+# 2.5 Uso de WITH, archivos y contexto Manager I - Alumno: Giuliana Dealbera Etchechoury
 
 with open('prueba.txt', 'r', encoding='utf8') as archivo:
     print(archivo.read())
 
-# 2.6 Uso de WITH, archivos y contexto Manager II - Alumno: 
+# 2.6 Uso de WITH, archivos y contexto Manager II - Alumno: Nicolas Segovia
+
+# Importamos nuestro metodo de clase
+# from ManejoArchivos import ManejoArchivos
+
+# With pero con nuestra clase creada en ManejoArchivo.py
+with ManejoArchivos('prueba.txt') as archivo:
+    print(archivo.read())
