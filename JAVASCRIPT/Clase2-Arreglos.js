@@ -25,4 +25,11 @@ for(let elemento = 0; elemento < autos2.length; elemento++){
 
 // 2.3 Modificamos los elementos - Alumno: 
 
-// 2.4 Preguntamos si es un Array - Alumno: 
+// 2.4 Preguntamos si es un Array - Alumno: Juan Pablo Nolan
+
+// Como preguntar si es una Array o Arreglo 
+//Con las CLASE ARRAY
+console.log(Array.isArray(autos2)); // Devuelve un bool
+
+// CON INSTANCEOF
+console.log(autos2 instanceof Array); // Preguntamos si la variable es una instacia de la calse Array.
