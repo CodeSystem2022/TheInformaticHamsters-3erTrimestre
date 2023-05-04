@@ -21,7 +21,7 @@
 </ul>
 <br>
 
-<h2> 🗓️ Organización por Sprint (Semana): </h2>
+<h2> 🗓️ Organización por Sprint: </h2>
 
 | **Sprint** | **Scrum Asignado** 👨‍💻 |
 | ------------- |:-------------:|
