@@ -32,5 +32,5 @@
 <br>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/86338019/196051124-2335b395-0c9a-4eab-8d4a-66b20c9f3ea0.gif" alt="HamstersDancing" />
+  <img width="100%" src="https://user-images.githubusercontent.com/86338019/196051124-2335b395-0c9a-4eab-8d4a-66b20c9f3ea0.gif" alt="HamstersDancing" />
 </p>
