@@ -29,8 +29,7 @@
 | Semana 2 | *Giuliana Dealbera E* |
 
 <br>
-<br>
 
 <p align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/86338019/196051124-2335b395-0c9a-4eab-8d4a-66b20c9f3ea0.gif" alt="HamstersDancing" />
+  <img width="100%" src="https://user-images.githubusercontent.com/86338019/236312946-27a4d317-5da8-48d4-b977-753dacf70aa9.gif" alt="HamstersDancing" />
 </p>
