@@ -86,6 +86,24 @@ class NumerosIgualesException (Exception): # Extiende de la clase
         
 
 
+# 1.5 Bloques else y finally al manejar excepciones - Alumno: Marcelo Quispe
 
+resultado = None
+try:
+    a = int(input("Digite el primer número: "))
+    b = int(input("Digite el segundo número: "))
+    resultado = a / b
+except TypeError as ex:
+    print(f'TypeError - Ocurrio un error: {type(ex)}')
+except ZeroDivisionError as ex:
+    print(f'Ocurrio un error: {ex}')
+except Exception as ex:
+    print(f'Ocurrio un error: {ex}')
+else:
+    print("No se arrojo ninguna excepcion") # El 'else' sera ejecutado en el caso que no se arroje ninguna excepcion.
+finally:
+    print("Ejecicion de este bloque finally")
+print(f'El resiltado es: {resultado}')
+print(f'seguimos...')
 
 
