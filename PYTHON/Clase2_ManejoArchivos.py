@@ -5,7 +5,15 @@ Team: The Informatic Hamsters
 Scrum Master: Giuliana Dealbera Etchechoury
 '''
 
-# 2.1 Introducción a lo que es el manejo de archivos - Alumno: 
+# 2.1 Introducción a lo que es el manejo de archivos - Alumno: Quiquinto Romina Ayelen
+try:
+    archivo = open('prueba.txt','w')
+    archivo.write('Programamos con diferentes tipos de archivos, ahora en txt.\n')
+    archivo.write('Con esto terminamos')
+except Exception as e:
+    print(e)
+finally:
+    archivo.close()
 
 # 2.2 Especificar el juego de caracteres de un archivo de texto - Alumno: Nadia Acosta
 try:
