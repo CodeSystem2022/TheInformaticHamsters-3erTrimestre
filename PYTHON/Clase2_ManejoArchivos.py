@@ -15,6 +15,21 @@ except Exception as e:
 finally:
     archivo.close()
 
+
+# 2.2 Especificar el juego de caracteres de un archivo de texto - Alumno: Giuliana Paola Diaz Luna
+
+archivo = open('prueba.txt', 'w', encoding='utf8') # Si este archivo no existe, lo va a crear. 'w', de 'write', escribir
+
+try:
+    archivo.write("Programamos con diferentes tipos de archivos, ahora en .txt\n")
+    archivo.write("Agrego palabras con acentos: \n")
+    archivo.write("- Programación\n")
+    archivo.write("- Introducción\n")
+except Exception as ex:
+    print(ex)
+finally:
+    archivo.close()
+
 # 2.2 Especificar el juego de caracteres de un archivo de texto - Alumno: Nadia Acosta
 try:
     archivo = open('prueba.txt', 'w', encoding='utf8') #La w es de write
@@ -26,6 +41,7 @@ except Exception as e:
     print(e)
 finally : #siempre se ejecuta
     archivo.close() #con esto se debe cerrar el archivo
+
 
 # archivo.write('Todo quedó perfecto'): este es un error!
 

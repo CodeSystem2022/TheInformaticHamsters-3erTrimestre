@@ -51,5 +51,11 @@ console.log(autos); ['Ferrari', 'Volvo', 'BMW', 'Audi', 'Porche', 'Renault']
 //Con las CLASE ARRAY
 console.log(Array.isArray(autos2)); // Devuelve un bool
 
+
+// 2.4 Preguntamos si es un Array - Alumno: Giuliana Paola Diaz Luna
+console.log(Array.isArray(autos)); // Devuelve un booleano
+
+console.log(autos instanceof Array); //Preguntamos si la variable es una instancia de la clase Array
+
 // CON INSTANCEOF
 console.log(autos2 instanceof Array); // Preguntamos si la variable es una instacia de la calse Array.
