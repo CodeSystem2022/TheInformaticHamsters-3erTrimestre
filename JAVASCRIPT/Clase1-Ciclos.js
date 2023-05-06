@@ -54,4 +54,24 @@ for(let contando = 0; contando < 10; contando++){
 
 console.log("Termina el ciclo");
 
-// 1.6 Etiquetas Labels - Alumno:
+
+// 1.6 Etiquetas Labels - Alumno:Nadia Acosta
+inicio: 
+for(let contando = 0; contando <= 10; contando++){
+    if(contando % 2 !== 0){
+        break inicio; 
+    } 
+    console.log(contando); 0
+}
+console.log("Termina el ciclo");
+
+// 1.6 Etiquetas Labels - Alumno: Giuliana Paola Diaz Luna
+inicio:
+for(let contando= 0; contando <= 10; contando++){
+    if(contando % 2 !==0){
+        break inicio; //va a la siguiente iteración
+    }
+    console.log(contando);
+}
+console.log("Termina el ciclo")
+

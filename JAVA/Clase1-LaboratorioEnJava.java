@@ -10,8 +10,45 @@ Scrum Master: Nicolas Segovia
 
 
 
-// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: 
 
+// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: Nadia Acosta
+package ar.com.system2023.mundopc;
+
+public class Raton extends DispositivoEntrada {
+    private final int idRaton;
+    private static int contadorRatones;
+
+    public Raton(String tipoEntrada, String marca){
+        super(tipoEntrada, marca) ;
+        this.idRaton = ++Raton.contadorRatones;
+    }
+    
+    @Override 
+    public String toString() {
+        return "Raton{" + "idRaton=" + idRaton + ", "+super.toString()+ '}';
+    }
+
+}
+
+// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno: Giuliana Paola Diaz Luna
+
+
+package ar.com.system2023.mundopc;
+
+public class Raton extends DispositivoEntrada{
+    private final int idRaton;
+    private static int contadorRatones;
+    
+    public Raton(String tipoEntrada, String marca) {
+        super(tipoEntrada, marca);
+        this.idRaton = ++Raton.contadorRatones;
+    }
+
+    @Override
+    public String toString() {
+        return "Raton{" + "idRaton=" + idRaton + ", "+super.toString()+'}';
+    }
+}
 
 // 1.3 Creamos la clase Monitor - Alumno: Juan Pablo Nolan
 
@@ -124,14 +161,79 @@ public class Computadora {
 }
 
 
-// 1.5 Creamos la clase Orden: Parte 1 y 2 - Alumno:
+// 1.5 Creamos la clase Orden: Parte 1 y 2 - Alumno:Miguel Rodriguez Saquilan
+package ar.com.system2023.mundopc;
+
+public class Orden {
+    private final int idOrden;
+    private Computadora computadora[]; // Arreglo de objetos
+    private static int contadorOrdenes;
+    private static final  int MAX_COMPUTADORAS = 10;
+    private int contadorComputadora;
+    
+    //Constructor vacio
+    
+    public Orden(){
+        this.idOrden = ++Orden.contadorOrdenes;
+        this.computadora = new Computadora[Orden.MAX_COMPUTADORAS];
+    }
+    
+   //Metodo para agregar una nueva computadora al arreglo
+    public void agregarComputadora(Computadora computadora){
+        if (this.contadorComputadora < Orden.MAX_COMPUTADORAS){
+            this.computadora[this.contadorComputadora++] = computadora;
+        }
+        else{
+            System.out.println("Has superado el limite " +Orden.MAX_COMPUTADORAS);
+        }
+    }
+    //Mostrar orden
+    public void mostarOrden(){
+        System.out.println("Orden  #:"+this.idOrden);
+        System.out.println("Computadoras de la orden #: " + this.idOrden);
+        for(int i = 0; i < this.contadorComputadora; i++){
+            System.out.println(this.computadora[i]);
+        }
+    }
+}
 
 
 // 1.6 Comenzamos las pruebas creando objetos de cada clase y las agregamos a 
 // la lista de Orden: Parte 1, 2 y 3 - Alumno:
+package mundopc;
+
+import ar.com.system2023.mundopc.*;
+
+public class mundoPC {
+    public static void main(String[] args) {
+        Monitor monitorHP = new Monitor("HP", 13);// IMPortar la clase
+        Teclado tecladoHP = new Teclado("Bluetooth", "HP");
+        Raton ratonHP = new Raton("bluetooth", " HP");
+        Computadora computadoraHP = new Computadora(" Computadora HP", monitorHP, tecladoHP, ratonHP);
+        
+        // Creamos objetos de diferentes marcas 
+        Monitor monitorGamer = new Monitor("Gamer", 32);
+        Teclado tecladoGamer = new Teclado("Bluetooth", "Gamer");
+        Raton ratonGamer = new Raton("bluetooth", " Gamer");
+        Computadora computadoraGamer = new Computadora(" Computadora Gamer", monitorGamer, tecladoGamer, ratonGamer);
+        Orden orden1 = new Orden();
+        Orden orden2 = new Orden(); // Una nueva lista para el objeto orden2
+        orden1.agregarComputadora(computadoraHP);
+        orden1.agregarComputadora(computadoraGamer);
+        
+        Computadora computadorasVarias = new Computadora("Computadora de diferentes marcas", monitorHP, tecladoGamer, ratonHP);
+        orden2.agregarComputadora(computadorasVarias);
+        
+        orden1.mostarOrden();
+        orden2.mostarOrden();
+        
+        // Crear mas objetos de tipo computadora  con todos sus elementos.
+        // completar una lista en el objeto  orden1 que llegue a los 10 elementos
+        // probar de esta manera los metodos al mzximo rendimiento
+    }
+}
 
 
-// 1.2 Creamos la clase hija Raton y la clase Teclado - Alumno:
 
 
 
