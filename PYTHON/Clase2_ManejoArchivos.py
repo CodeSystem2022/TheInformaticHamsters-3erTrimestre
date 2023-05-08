@@ -15,6 +15,40 @@ except Exception as e:
 finally:
     archivo.close()
 
+# 2.1 Introducción a lo que es el manejo de archivos - Alumno: Miguel Rodriguez Saquilan
+    
+# declaramos una variable
+# usamos el metodo open que nos sirve para buscar un archivo o crear un nuevo archivo
+# este metodo open puede arrogar una execpcion por lo que siempre va dentro 
+# de un try
+try:
+   # la w es write(escribir)
+   archivo = open('prueba.txt','w', encoding='utf8')# lo que estamos indicando es que si no esta el archivo lo cree
+   archivo.write('Programamos con diferentes tipo de archivos, ahora .txt  \n')
+   # lo que estamos haciendo ahora es modificar nuestro archivo
+   archivo.write('Con esto terminamos')# .write es para escribir nuestro archivo
+   
+except   Exception as e :
+  print(e)
+
+finally: # siempre se ejecuta
+    archivo.close()# con esto se debe cerrar el archivo
+
+
+# 2.2 Especificar el juego de caracteres de un archivo de texto - Alumno: Giuliana Paola Diaz Luna
+
+archivo = open('prueba.txt', 'w', encoding='utf8') # Si este archivo no existe, lo va a crear. 'w', de 'write', escribir
+
+try:
+    archivo.write("Programamos con diferentes tipos de archivos, ahora en .txt\n")
+    archivo.write("Agrego palabras con acentos: \n")
+    archivo.write("- Programación\n")
+    archivo.write("- Introducción\n")
+except Exception as ex:
+    print(ex)
+finally:
+    archivo.close()
+
 # 2.2 Especificar el juego de caracteres de un archivo de texto - Alumno: Nadia Acosta
 try:
     archivo = open('prueba.txt', 'w', encoding='utf8') #La w es de write
@@ -26,6 +60,7 @@ except Exception as e:
     print(e)
 finally : #siempre se ejecuta
     archivo.close() #con esto se debe cerrar el archivo
+
 
 # archivo.write('Todo quedó perfecto'): este es un error!
 

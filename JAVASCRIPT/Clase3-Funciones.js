@@ -48,8 +48,25 @@ console.log(resultado); 11
 
 
 
-// 3.9 Paso por valor - Alumno:
+// 3.9 Paso por valor - Alumno: Giuliana Dealbera Etchechoury
 
+let primitivo = 10;
+function cambiarValor(o){ //paso por VALOR
+    o = 20;
+}
+cambiarValor(primitivo);
+console.log(primitivo); // o = 10, no sufre cambio.
 
+// 3.9.1 Paso por referencia - Alumno: Giuliana Dealbera Etchechoury
 
-// 3.9.1 Paso por referencia - Alumno:
+const persona = {
+    nombre: 'Juan',
+    apellido: 'López'
+}
+console.log(persona); // {nombre: 'Juan', apellido: 'López'}
+function cambiarPersona(p1){
+    p1.nombre = 'Nina';
+    p1.apellido = 'Perez';
+}
+cambiarPersona(persona);
+console.log(persona); // {nombre: 'Nina', apellido: 'Perez'}

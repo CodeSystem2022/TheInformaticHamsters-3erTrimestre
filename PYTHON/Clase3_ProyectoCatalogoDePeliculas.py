@@ -23,6 +23,7 @@ class Pelicula:
         self._nombre = nombre
 
 
+
 # 3.3 Creación de la clase catalogo_peliculas - Alumno: Giuliana Dealbera Etchechoury
 
 import os
@@ -45,7 +46,6 @@ class CatalogoPeliculas:
     def eliminar_peliculas(cls):
         os.remove(cls.ruta_archivo)
         print(f'Archivo eliminado: {cls.ruta_archivo}')
-
 
 # 3.4 Creación test_catalogo_peliculas - Alumno:
 
