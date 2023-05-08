@@ -24,9 +24,19 @@ const autos2 = ["Ferrari", "Renault", "BMW"];
 
 
 // 2.2 Recorremos los elementos de un arreglo - Alumno: Giuliana Dealbera Etchechoury
-
 for(let elemento = 0; elemento < autos2.length; elemento++){
     console.log(elemento + ": " +autos2[elemento]); 
+}
+
+// 2.2 Recorremos los lementos de un arreglo - Alumno Quiquinto Romina Ayelen
+const autos = ['Ferrari', 'Renault', 'BMW'];
+console.log(autos); ['Ferrari', 'Renault', 'BMW']
+
+console.log(autos[0]); Ferrari
+console.log(autos[2]); BMW
+
+for(Let i = 0; i < autos.length; i++){
+    console.log(i+' : '+autos[i]); 0 : Ferrari, 1 : Remault, 2:  BMW
 }
 
 // 2.3 Modificamos los elementos del arreglo- Alumno: Nadia Acosta
