@@ -12,6 +12,12 @@ try:
 except ZeroDivisionError as ex:
     print(f'Ocurrio un error: {ex}')
 
+# 1.1 Manejo de errores o excepciones Parte 1 y parte 2 - Alumno: Quiquinto Ayelen
+
+try:
+    10/0
+except ZeroDivisionError as ex:
+    print(f'Ocurrio un error: {ex}')
 
 # 1.2 Procesamiento de excepciones - Alumno: Giuliana Dealbera Etchechoury
 
