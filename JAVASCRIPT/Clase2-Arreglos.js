@@ -45,6 +45,26 @@ console.log(autos);
 autos[6] = 'Renault';
 console.log(autos); ['Ferrari', 'Volvo', 'BMW', 'Audi', 'Porche', 'Renault']
 
+
+// 2.3 Modificamos los elementos del arreglo- Alumno: Miguel Rodriguez Saquilan
+autos[1] = 'Volvo';
+console.log(autos[1]);
+
+//Agregamos nuevos valores al arreglo
+autos.push('Audi'); //Agregamos el elemento al final del arreglo
+console.log(autos);
+
+//Otras formas de agregar elementos al arreglo
+// la de push seria la primera y la otra es recorrer todo el largo del arreglo
+autos[autos.length] = 'Porche';
+console.log(autos);
+
+//Tercera forma de agregar elementos teniendo cuidado
+// por que podemos generar espacios vacios 
+
+autos[6] = 'Renault';
+console.log(autos); ['Ferrari', 'Volvo', 'BMW', 'Audi', 'Porche', 'Renault']
+
 // 2.4 Preguntamos si es un Array - Alumno: Juan Pablo Nolan
 
 // Como preguntar si es una Array o Arreglo 
