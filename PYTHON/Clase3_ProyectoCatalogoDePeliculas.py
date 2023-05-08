@@ -23,12 +23,13 @@ class Pelicula:
         self._nombre = nombre
 
 
-# 3.3 Creación de la clase catalogo_peliculas - Alumno: Marcelo Quispe
+
+# 3.3 Creación de la clase catalogo_peliculas - Alumno: Giuliana Dealbera Etchechoury
+
 import os
 
 class CatalogoPeliculas:
-
-    ruta_archivo = 'pelicula.txt'
+    ruta_archivo = 'Pelicula.txt'
 
     @classmethod
     def agregar_peliculas(cls, pelicula):
@@ -38,13 +39,13 @@ class CatalogoPeliculas:
     @classmethod
     def listar_peliculas(cls):
         with open(cls.ruta_archivo, 'r', encoding='utf8') as archivo:
-            print(f'Catalogo de pelicula'.center(50, '-'))
+            print(f'Catalogo de peliculas'.center(50, '-'))
             print(archivo.read())
 
     @classmethod
     def eliminar_peliculas(cls):
         os.remove(cls.ruta_archivo)
-        print(f'Achivo eliminado :{cls.ruta_archivo}')
+        print(f'Archivo eliminado: {cls.ruta_archivo}')
 
 # 3.4 Creación test_catalogo_peliculas - Alumno:
 
