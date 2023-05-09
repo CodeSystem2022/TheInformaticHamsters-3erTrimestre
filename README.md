@@ -28,6 +28,8 @@
 | Semana 1 | *Nicolas Segovia* |
 | Semana 2 | *Giuliana Dealbera E* |
 
+| Semana 2 | *Giuliana Paola Diaz Luna* |
+
 <br>
 
 <p align="center">
