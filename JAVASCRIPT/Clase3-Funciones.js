@@ -18,7 +18,18 @@ function miFuncion(a, b) {
 miFuncion(5, 4);
 
 
-// 3.2 Palabra return - Alumno:
+// 3.2 Palabra return - Alumno: Nicolas Segovia
+
+function miFuncion(a, b) {
+    //console.log("Sumamos: "+ (a + b)); Sumamos: 10, Sumamos: 9
+    return a + b;
+}
+
+//Llamando la función 
+miFuncion(5, 4);
+
+let resultado = miFuncion(6, 7);
+console.log(resultado);
 
 
 
