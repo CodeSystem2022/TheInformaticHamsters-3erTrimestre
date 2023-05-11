@@ -15,7 +15,8 @@ Esta tabla la llamamos persona y le agregamos 4 columnas: id_persona, nombre, ap
 Al id_persona lo marcamos como una PK.
 Ya teniendo la rama armada, seleccionamos la opción de VIEW y observamos el Query generado, y abajo, la tabla misma
 dónde agregamos unos datos.
-'''
+''' 
+
 
 # 4.3 Consultas con código Query en Postgresql Parte 1 - Alumno: 
 
