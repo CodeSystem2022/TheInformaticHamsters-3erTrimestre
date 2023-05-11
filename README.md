@@ -14,9 +14,9 @@
   <li>Dealbera Etchechoury, Giuliana</li>
   <li>Diaz Luna, Giuliana Paola</li>
   <li>Nolan, Juan Pablo</li>
-  <li>Rodriguez Saquilan, Miguel</li>
   <li>Quiquinto, Romina Ayelen</li>
   <li>Quispe, Marcelo Alejandro</li>
+  <li>Rodriguez Saquilan, Miguel</li>
   <li>Segovia, Jorge Nicolas</li>
 </ul>
 <br>
