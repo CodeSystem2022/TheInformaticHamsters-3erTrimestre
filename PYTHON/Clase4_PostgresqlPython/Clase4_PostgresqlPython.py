@@ -6,7 +6,7 @@ Scrum Master: Giuliana Paola Diaz Luna
 '''
 
 
-# 4.2 Creamos un base de datos llamada prueba_bd y cargamos una tabla con sus columnas - Alumno: 
+# 4.2 Creamos un base de datos llamada prueba_bd y cargamos una tabla con sus columnas - Alumno: Giuliana Dealbera Etchechoury
 
 '''
 Instalamos el programa Postgresql. Dentro de Databases creamos una base de dato llamada "test_bd".
