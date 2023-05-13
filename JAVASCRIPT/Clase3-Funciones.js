@@ -39,8 +39,12 @@ let x = function(a, b){ return a + b}; //necesita cierre con punto y coma
 resultado = x(5, 6); //al llamarla se pone la variable y parentesis
 console.log(resultado); 11
 
-// 3.4 Funciones de tipo self e invoking - Alumno:
+// 3.4 Funciones de tipo self e invoking - Alumno: Miguel Rodriguez Saquilan
 
+//funciones de tipo self y invoking se llaman a si misma
+(function(a,b){
+    console.log('Ejecutando la funcion: '+(a+b))
+})(9,6); 
 
 
 // 3.5 Tipos de datos de una función - Alumno:
