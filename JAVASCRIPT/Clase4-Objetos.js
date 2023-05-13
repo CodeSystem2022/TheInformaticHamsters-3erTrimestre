@@ -33,7 +33,13 @@ Scrum Master: Giuliana Paola Diaz Luna
 
 
 
-// 4.7 Distintas formas de imprimir un Objeto con: Object.values()  y JSON.stringify() - Alumno:
+// 4.7 Distintas formas de imprimir un Objeto con: Object.values()  y JSON.stringify() - Alumno: Miguel Rodriguez Saquilan
+
+// Numero 4 utilizaremos JSON.stringity
+console.log('// Numero 4 utilizaremos JSON.stringity')
+let personaString = JSON.stringify(persona);
+console.log(personaString);
+
 
 
 
