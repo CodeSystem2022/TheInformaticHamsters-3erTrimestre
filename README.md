@@ -29,6 +29,7 @@
 | Semana 2 | *Giuliana Dealbera E* |
 | Semana 4 | *Giuliana Paola Diaz Luna* |
 | Semana 5 | *Juan Pablo Nolan* |
+| Semana 6 | *Miguel Rodriguez Saquilan* |
 
 <br>
 
