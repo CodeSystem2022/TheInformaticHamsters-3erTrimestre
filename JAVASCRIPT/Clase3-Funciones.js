@@ -43,14 +43,29 @@ console.log(resultado); 11
 
 
 
-// 3.5 Tipos de datos de una función - Alumno:
+// 3.5 Tipos de datos de una función - Alumno: Giuliana Paola Diaz Luna
+
+console.log(typeof miFuncion);
+
+function miFuncion(a,b) {
+    console.log(arguments);
+    //console.log(arguments.length);
+}
+
+miFuncion(5,7);
+
+// toString
+var miFuncionTexto = miFuncionDos.toString();
+console.log(miFuncionTexto);
 
 
 
 // 3.6 Funciones flecha  - Alumno: Juan Pablo Nolan
 
 //Funciones flecha
-const sumarFuncionFlecha = (a, b) => a + b;
+function sumarFuncionFlecha(a, b) {
+    return a + b;
+}
 resultado = sumarFuncionFlecha(3, 7); //Asignamos el valor a una variable
 console.log(resultado); 10
 
