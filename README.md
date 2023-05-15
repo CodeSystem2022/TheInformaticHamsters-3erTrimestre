@@ -19,7 +19,7 @@
   <li>Rodriguez Saquilan, Miguel</li>
   <li>Segovia, Jorge Nicolas</li>
 </ul>
-<br>
+<br>a
 
 <h2> 🗓️ Organización por Sprint: </h2>
 
@@ -27,6 +27,7 @@
 | ------------- |:-------------:|
 | Semana 1 | *Nicolas Segovia* |
 | Semana 2 | *Giuliana Dealbera E* |
+| Semana 3 | *Nadia Yanella Acosta* |
 | Semana 4 | *Giuliana Paola Diaz Luna* |
 | Semana 5 | *Juan Pablo Nolan* |
 | Semana 6 | *Miguel Rodriguez Saquilan* |
