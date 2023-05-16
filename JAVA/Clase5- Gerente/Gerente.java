@@ -8,7 +8,7 @@ public class Gerente extends Empleado{
         this.departamento = departamento;
     }
     
-    //Sobre escribimos el metodo
+    //  Sobre escribimos el metodo
     @Override
     public String  obtenerDetalles(){
         return super.obtenerDetalles() + " - Departamento: " + this.departamento;
