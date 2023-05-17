@@ -6,9 +6,19 @@ Scrum Master: Miguel Rodriguez Saquilan
 */
 
 
-// 5.1 Métodos get y set Parte 1  - Alumno:
+// 5.1 Métodos get y set Parte 1  - Alumno: Giuliana Dealbera Etchechoury
 
-
+let personaGet = {
+    nombre: 'Frodo',
+    apellido: 'Bolsón',
+    raza: 'Hobbit',
+    rol: 'Portador del anillo',
+    get nombreRol(){
+        return this.nombre + this.apellido + ' es el ' + this.rol;
+    }
+}
+console.log('--Utilizando el método GET--')
+console.log(personaGet.nombreRol);
 
 // 5.1 Métodos get y set  Parte 2 - Alumno:
 
