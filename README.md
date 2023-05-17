@@ -1,4 +1,4 @@
-<!-- <h1 align="center">The Informatic Hamsters - 3er Semestre 🐹</h1> -->
+<h1 align="center">The Informatic Hamsters - 3er Semestre 🐹</h1>
 <br>
 
 <p align="center">
@@ -19,7 +19,7 @@
   <li>Rodriguez Saquilan, Miguel</li>
   <li>Segovia, Jorge Nicolas</li>
 </ul>
-<br>a
+<br>
 
 <h2> 🗓️ Organización por Sprint: </h2>
 
