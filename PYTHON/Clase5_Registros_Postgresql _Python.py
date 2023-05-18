@@ -8,7 +8,7 @@ Scrum Master: Miguel Rodriguez Saquilan
 
 import psycopg2 #Esto es para poder conectarnos a la base creada mediante postgress
 
-conexion = psycopg2.connect(user='postgres',password='Lautaro-1',host='127.0.0.1',port='5432',database='test_bd')
+
 
 
 # 5.1 Uso de with y psycopg2 -- Alumno : 
@@ -36,8 +36,22 @@ finally:
 conexion.close() 
 
 
-# 5.3 Función fechall en psycopg2 Parte 1  - Alumno: 
+# 5.3 Función fechall en psycopg2 Parte 1  - Alumno: Juan Pablo Nolan
 
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            sentencia = 'SELECT * FROM persona WHERE id_persona IN (1, 2, 3, 4, 5, 6, 7)' #Placeholder
+            #entrada = input("Digite los id_persona a buscar (separados por coma): ")
+            cursor.execute(sentencia) #De esta manera ejecutamos la sentencia
+            registros = cursor.fetchall() #Recuperamos todos los registros que seran una lista
+            for registro in registros:
+                print(registro)
+
+except Exception as e:
+    print(f'Ocurrio un error: {e}')
+finally:
+    conexion.close()
 
 # 5.3 Función fechall en psycopg2 Parte  2 -Alumno:
 
