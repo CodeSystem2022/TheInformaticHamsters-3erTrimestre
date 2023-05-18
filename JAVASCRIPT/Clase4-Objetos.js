@@ -7,8 +7,18 @@ Scrum Master: Giuliana Paola Diaz Luna
 
 
 
-// 4.1 Introducción a los Objetos en JavaScript Parte 1 - Alumno:
+// 4.1 Introducción a los Objetos en JavaScript Parte 1 - Alumno:Quiquinto Ayelen
+let x = 10;
+console.log(x.length);
 
+let persona = {
+    nombre: 'Carlos',
+    apellido: 'Gil',
+    email: 'cgil@gmail.com',
+    edad: 30
+}
+
+console.log(persona.nombre); Carlos
 
 // 4.1 Introducción a los Objetos en JavaScript Parte 2 - Alumno:
 
