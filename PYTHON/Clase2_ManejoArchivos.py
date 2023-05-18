@@ -112,3 +112,12 @@ with open('prueba.txt', 'r', encoding='utf8') as archivo:
 # With pero con nuestra clase creada en ManejoArchivo.py
 with ManejoArchivos('prueba.txt') as archivo:
     print(archivo.read())
+
+# 2.6 Uso de WITH, archivos y contexto Manager II - Alumno: Quiquinto Ayelen
+
+# Importamos nuestro metodo de clase
+# from ManejoArchivos import ManejoArchivos
+
+# With pero con nuestra clase creada en ManejoArchivo.py
+with ManejoArchivos('prueba.txt') as archivo:
+    print(archivo.read())
