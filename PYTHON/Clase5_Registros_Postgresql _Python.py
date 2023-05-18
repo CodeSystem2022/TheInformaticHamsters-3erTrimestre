@@ -8,20 +8,32 @@ Scrum Master: Miguel Rodriguez Saquilan
 
 import psycopg2 #Esto es para poder conectarnos a la base creada mediante postgress
 
-conexion = psycopg2.connect(
-    user='postgres',
-    password='Lautaro-1',
-    host='127.0.0.1',
-    port='5432',
-    database='test_bd'
-)
+conexion = psycopg2.connect(user='postgres',password='Lautaro-1',host='127.0.0.1',port='5432',database='test_bd')
 
 
 # 5.1 Uso de with y psycopg2 -- Alumno : 
 
 
 
-# 5.2 Función fetchone en psycopg2   - Alumno: 
+# 5.2 Función fetchone en psycopg2   - Alumno: Miguel Rodriguez Saquilan
+
+try:
+    with conexion:
+        with conexion.cursor() as cursor:  # con este uso del with no tengo que cerrar de manera manual la bd
+            sentencia = 'SELECT * FROM persona WHERE id_persona = %s' #placeholder
+            id_persona = input('Digite un numero para el id_persona: ') 
+            cursor.execute(sentencia,(id_persona,))# de esta manera ejecutamos la sentencia 
+            registros = cursor.fetchone5() # este metodo nos permite recuperar los registros de la sentencia
+            print(registros)
+except Exception as e: 
+    print(f'Ocurrio un error: {e}')
+finally:
+    conexion.close()    
+       
+
+# cerramos todo. mas adelante veremos otra forma de hacerlo
+
+conexion.close() 
 
 
 # 5.3 Función fechall en psycopg2 Parte 1  - Alumno: 
