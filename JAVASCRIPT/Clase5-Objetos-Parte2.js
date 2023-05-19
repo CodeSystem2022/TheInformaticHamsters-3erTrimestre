@@ -63,8 +63,13 @@ let miFuncion1 = new function(); //Todo despues de new es considerado objeto
 //Caso function 2
 let miFuncion2 = function(){}; //Notacion simplificada y recomendada
 
-// 5.5 El uso de prototype - Alumno: 
-
+// 5.5 El uso de prototype - Alumno:  Marcelo Alejandro Quispe
+// Uso de prototype
+Persona3.prototype.telefono = '3513475612';
+console.log(padre);
+console.log(madre.telefono);
+madre.telefono = '5493513475612'
+console.log(madre.telefono);
 
 
 // 5.6 El uso de call - Alumno: 
