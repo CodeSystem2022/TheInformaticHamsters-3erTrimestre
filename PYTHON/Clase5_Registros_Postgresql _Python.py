@@ -79,8 +79,8 @@ finally:
 
 
 
-# 5.6 Actualizar o modificar un registro -Alumno: Marcelo Alejandro Quispe
-import psycopg2 # Esto es para que podamos conectarnos a Postgre
+# 5.6 Actualizar o modificar un registro -Alumno: Marcelo A. Quispe
+import psycopg2      # Esto hace que  podamos conectarnos a Postgre
 
 conexion = psycopg2.connect(
     user='postgres',
