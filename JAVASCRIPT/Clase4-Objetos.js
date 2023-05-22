@@ -68,9 +68,16 @@ console.log(persona.nombreCompleto());
 
 
 
-// 4.4  Cómo acceder a las propiedades de los Objetos - Alumno:
+// 4.4  Cómo acceder a las propiedades de los Objetos - Alumno: Giuliana Dealbera Etchechoury
 
+//opcion 1:
+console.log(person['apellido']); //accediento al objeto como si fuese un arreglo
 
+//opcion 2:
+for(propiedad in persona){  //utilizando el ciclo for 
+    console.log(propiedad);
+    console.log(persona[propiedad]);
+}
 
 // 4.5 Agregar y eliminar propiedades de los Objetos - Alumno: 
 
