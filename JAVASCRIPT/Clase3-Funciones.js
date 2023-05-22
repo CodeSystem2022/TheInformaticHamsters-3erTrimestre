@@ -39,18 +39,37 @@ let x = function(a, b){ return a + b}; //necesita cierre con punto y coma
 resultado = x(5, 6); //al llamarla se pone la variable y parentesis
 console.log(resultado); 11
 
-// 3.4 Funciones de tipo self e invoking - Alumno:
+// 3.4 Funciones de tipo self e invoking - Alumno: Miguel Rodriguez Saquilan
+
+//funciones de tipo self y invoking se llaman a si misma
+(function(a,b){
+    console.log('Ejecutando la funcion: '+(a+b))
+})(9,6); 
 
 
+// 3.5 Tipos de datos de una función - Alumno: Giuliana Paola Diaz Luna
 
-// 3.5 Tipos de datos de una función - Alumno:
+console.log(typeof miFuncion);
+
+function miFuncion(a,b) {
+    console.log(arguments);
+    //console.log(arguments.length);
+}
+
+miFuncion(5,7);
+
+// toString
+var miFuncionTexto = miFuncionDos.toString();
+console.log(miFuncionTexto);
 
 
 
 // 3.6 Funciones flecha  - Alumno: Juan Pablo Nolan
 
 //Funciones flecha
-const sumarFuncionFlecha = (a, b) => a + b;
+function sumarFuncionFlecha(a, b) {
+    return a + b;
+}
 resultado = sumarFuncionFlecha(3, 7); //Asignamos el valor a una variable
 console.log(resultado); 10
 

@@ -6,9 +6,19 @@ Scrum Master: Miguel Rodriguez Saquilan
 */
 
 
-// 5.1 Métodos get y set Parte 1  - Alumno:
+// 5.1 Métodos get y set Parte 1  - Alumno: Giuliana Dealbera Etchechoury
 
-
+let personaGet = {
+    nombre: 'Frodo',
+    apellido: 'Bolsón',
+    raza: 'Hobbit',
+    rol: 'Portador del anillo',
+    get nombreRol(){
+        return this.nombre + this.apellido + ' es el ' + this.rol;
+    }
+}
+console.log('--Utilizando el método GET--')
+console.log(personaGet.nombreRol);
 
 // 5.1 Métodos get y set  Parte 2 - Alumno:
 
@@ -21,14 +31,45 @@ Scrum Master: Miguel Rodriguez Saquilan
 
 
 
-// 5.4 Distintas formas de crear objetos - Alumno:
+// 5.4 Distintas formas de crear objetos - Alumno: Juan Pablo Nolan
 
+//Caso objeto 1
+let miObjeto1 = new Object(); //Esta es una opcion formal
+//Caso objeto 2
+let miObjeto2 = {}; //Esta opcion es breve y recomendada
 
+//Caso String 1
+let miCadena1 = new String("Hola"); //Sintaxis formal
+//Caso String 2
+let miCadena2 = "Hola"; //Esta es la sintaxis simplificada y recomendada
 
+//Caso con numeros 1
+let miNumero1 = new Number(1); //Es formal no recomendable
+//Caso con numeros 2
+let miNumero2 = 1; //Sintaxis recomendada
 
+//Caso boolean 1
+let miBoolean1 = new Boolean(false); //Formal
+//Caso boolean 2
+let miBoolean2 = false; //Sintaxis recomendada
 
-// 5.5 El uso de prototype - Alumno: 
+//Caso arreglos 1
+let miArrelgo1 = new Array(); //Formal
+//Caso arreglos 2
+let miArrelgo2 = []; //Sintaxis recomendada
 
+//Caso function 1
+let miFuncion1 = new function(); //Todo despues de new es considerado objeto
+//Caso function 2
+let miFuncion2 = function(){}; //Notacion simplificada y recomendada
+
+// 5.5 El uso de prototype - Alumno:  Marcelo Alejandro Quispe
+// Uso de prototype
+Persona3.prototype.telefono = '3513475612';
+console.log(padre);
+console.log(madre.telefono);
+madre.telefono = '5493513475612'
+console.log(madre.telefono);
 
 
 // 5.6 El uso de call - Alumno: 
