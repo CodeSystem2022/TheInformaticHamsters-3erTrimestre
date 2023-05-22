@@ -7,7 +7,11 @@ Scrum Master: Giuliana Paola Diaz Luna
 
 
 
+
+// 4.1 Introducción a los Objetos en JavaScript Parte 1 - Alumno: 
+
 // 4.1 Introducción a los Objetos en JavaScript Parte 1 - Alumno: Juan Pablo Nolan
+
 
 let x = 10; //variable de tipo primitiva
 console.log(x.length); undefined
@@ -22,7 +26,24 @@ let persona = {
 
 console.log(persona.nombre); Carlos
 
-// 4.1 Introducción a los Objetos en JavaScript Parte 2 - Alumno:
+
+// 4.1 Introducción a los Objetos en JavaScript Parte 2 - Alumno: Marcelo Alejandro Quispe
+let x = 10; // variable de tipo primitiva
+console.log(x.length);
+
+// Objeto 
+let persona = {
+    nombre : 'Carlos',
+    apellido : 'Gil',
+    email : 'cgil@gmail.com',
+    edad : 30,
+}
+
+console.log(persona.nombre);
+console.log(persona.apellido);
+console.log(persona.email);
+console.log(persona.edad);
+console.log(persona);
 
 
 // 4.2 Agregamos métodos a los Objetos - Alumno: Nicolas Segovia
