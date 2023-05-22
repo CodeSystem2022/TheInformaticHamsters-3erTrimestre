@@ -13,7 +13,11 @@ Scrum Master: Marcelo Alejandro Quispe
 
 
 
-# 7.2 Manejo de logging: Parte 1   - Alumno: 
+# 7.2 Manejo de logging: Parte 1   - Alumno: Miguel Rodriguez Saquilan
+import logging as log
+
+# llamamos una configuracion basica
+log.basicConfig(level=log.DEBUG)
 
 
        
