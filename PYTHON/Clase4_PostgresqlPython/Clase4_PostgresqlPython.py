@@ -18,11 +18,12 @@ dónde agregamos unos datos.
 ''' 
 
 
-# 4.3 Consultas con código Query en Postgresql Parte 1 - Alumno: 
+# 4.3 Consultas con código Query en Postgresql Parte 1 - Alumno: Nicolas Segovia
 
 
-# 4.4 Consultas con código Query en Postgresql Parte 2 - Alumno: 
+# 4.4 Consultas con código Query en Postgresql Parte 2 - Alumno: Giuliana Paola Diaz Luna
 
+# 4.4 Consultas con código Query en Postgresql Parte 2 - Alumno: Miguel Rodriguez Saquilan
 
 
 # 4.6 Conexión hacia la base de datos en Python con el método fetchall() - Alumno: Juan Pablo Nolan
@@ -42,6 +43,9 @@ sentencia = 'SELECT * FROM persona WHERE id_persona = 1'
 cursor.execute(sentencia) #De esta manera ejecutamos la sentencia
 registros = cursor.fetchall() #Recuperamos todos los registros que seran una lista
 print(registros)
+
+# 4.6 Conexión hacia la base de datos en Python con el método fetchall() - Alumno: Giuliana Paola Diaz Luna (actividad que pertenecia a Nadia Acosta)
+# ir a archivo prueba_bd
 
 # 4.7 Cerramos la conexión y la consulta - Alumno: 
 
