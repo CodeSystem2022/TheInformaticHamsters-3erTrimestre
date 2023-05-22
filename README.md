@@ -32,7 +32,7 @@
 | Semana 5 | *Juan Pablo Nolan* |
 | Semana 6 | *Miguel Rodriguez Saquilan* |
 | Semana 7 | *Quiquinto Romina Ayelen* |
-
+| Semana 8 | *Quispe Marcelo Alejandro* |
 <br>
 
 <p align="center">
