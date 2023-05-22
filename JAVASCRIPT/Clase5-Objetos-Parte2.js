@@ -20,7 +20,18 @@ let personaGet = {
 console.log('--Utilizando el método GET--')
 console.log(personaGet.nombreRol);
 
-// 5.1 Métodos get y set  Parte 2 - Alumno:
+// 5.1 Métodos get y set  Parte 2 - Alumno: Rodriguez Saquilan Miguel
+let persona = {
+    nombre: 'Carlos',
+    apellido: 'Gil',
+    email: 'aguantelaT@gmail.com',
+    edad:28,
+    idioma: 'ES' ,
+    set lang(lang){
+        this.idioma = lang.toUpperCase();
+        console.log('Comenzamos con el metoso get y set  para idiomas');
+        console.log(persona.lang);        
+
 
 
 // 5.2 Constructores de objetos - Alumno:
