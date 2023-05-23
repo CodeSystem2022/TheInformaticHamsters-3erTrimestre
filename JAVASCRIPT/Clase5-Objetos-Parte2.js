@@ -38,9 +38,24 @@ let persona = {
 
 
 
-// 5.3 Agregar métodos al constructor del objeto - Alumno: 
+// 5.3 Agregar métodos al constructor del objeto - Alumno: Giuliana Paola Diaz Luna
 
+function Persona1(nombre, apellido, email){ //constructor
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.nombreCompleto = function(){
+        return this.nombre+' '+this.apellido;
+    }
+}
 
+let padre =new Persona3('Leo','Lopez','lopez@gmail.com');
+padre.nombre = 'Luis'; // modificamos el nombre
+console.log(padre.nombreCompleto()); // utilizamos la funcion 
+
+let madre =new Persona3('Laura','Contrera','contreral@gmail.com');
+console.log(madre);
+console.log(madre.nombreCompleto()); // utilizamos la funcion 
 
 // 5.4 Distintas formas de crear objetos - Alumno: Juan Pablo Nolan
 
