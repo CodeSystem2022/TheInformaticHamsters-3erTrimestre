@@ -20,12 +20,21 @@ import logging as log
 log.basicConfig(level=log.DEBUG)
 
 
-       
 
+# 7.3 Manejo de logging: Parte 2  - Alumno: Giuliana Paola Diaz Luna
 
-# 7.3 Manejo de logging: Parte 2  - Alumno: 
+import logging as log
 
-
+log.basicConfig(level=log.DEBUG,
+                # muestra fecha y hora, nivel, nombre del archivo, linea que se ejecuto y mensaje que se envia
+                format='%(asctime)s:%(levelname)s [%(filename)s:%(lineno)s] %(message)s',
+                # formato de la fecha
+                datefmt='%I:%M:%S %p',
+                handlers=[
+                    log.FileHandler('capa_datos.log'),
+                    log.StreamHandler()
+                ]
+                )
 
 # 7.5 Video de otro proyecto llamado: Partículas -Alumno:
 
