@@ -25,14 +25,26 @@
 
 | **Sprint** | **Scrum Asignado** 👨‍💻 |
 | ------------- |:-------------:|
-| Semana 1 | *Nicolas Segovia* |
-| Semana 2 | *Giuliana Dealbera E* |
-| Semana 3 | *Nadia Yanella Acosta* |
-| Semana 4 | *Giuliana Paola Diaz Luna* |
-| Semana 5 | *Juan Pablo Nolan* |
-| Semana 6 | *Miguel Rodriguez Saquilan* |
-| Semana 7 | *Quiquinto Romina Ayelen* |
-| Semana 8 | *Quispe Marcelo Alejandro* |
+| ❌Semana 1 | *Nicolas Segovia* |
+| ❌Semana 2 | *Giuliana Dealbera E* |
+| ❌Semana 3 | *Nadia Yanella Acosta* |
+| ❌ Semana 4 | *Giuliana Paola Diaz Luna* |
+| ❌Semana 5 | *Juan Pablo Nolan* |
+| ❌Semana 6 | *Miguel Rodriguez Saquilan* |
+| ❌Semana 7 | *Quiquinto Romina Ayelen* |
+| ❌Semana 8 | *Quispe Marcelo Alejandro* |
+      Reasignación de semana De SM
+
+| **Sprint** | **Scrum Asignado** 👨‍💻 |
+| ------------- |:-------------:|
+| Semana 1 | *Miguel Rodriguez Saquilan* |
+| Semana 2 | *Nadia Yanella Acosta* |
+| Semana 3 | *Giuliana Paola Diaz Luna* |
+| Semana 4 | *Juan Pablo Nolan* |
+| Semana 5 | *Quispe Marcelo Alejandro* |
+
+
+
 <br>
 
 <p align="center">
