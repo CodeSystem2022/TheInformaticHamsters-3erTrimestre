@@ -6,7 +6,11 @@ Scrum Master: Marcelo Alejandro Quispe
 */
 
 
-// 7.1 Heredar métodos  - Alumno: 
+// 7.1 Heredar métodos  - Alumno: Miguel Rodriguez Saquilan
+nombreCompleto(){
+    return this._nombre+' '+this._apellido;
+}
+console.log(empleado1.nombreCompleto());
 
 
 
