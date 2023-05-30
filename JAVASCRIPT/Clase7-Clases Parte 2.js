@@ -15,19 +15,19 @@ console.log(empleado1.nombreCompleto());
 
 
 
-// 7.2 Sobreescritura - Alumno: Marcelo Alejandro Quispe
+// 7.2 Sobreescritura - Alumno:  Marcelo Alejandro Quispe
   // Sobreescritura
-  nombreCompleto(){
+  
+nombreCompleto(){
     return super.nombreCompleto ()+ ' , ' + this._departamento;
     }
-}
-
-let persona1 = new Persona('Martin', 'Perez');
+console.log(empleado1.nombreCompleto());
+let persona1 = new Persona ('Martin', 'Perez');
 console.log(persona1.nombre);
-persona1.nombre = 'Juan Carlos';
-console.log(persona1.nombre);
+persona1.nombre ='Juan Carlos';
+console.log (persona1.nombre);
 //console.log(persona1);
-let persona2 = new Persona('Carlos', 'Lara');
+let persona2 = new Persona ('Carlos', 'Lara');
 console.log(persona2.nombre);
 persona2.nombre = 'Maria Laura';
 console.log(persona2.nombre);
@@ -38,8 +38,8 @@ console.log(empleado1);
 console.log(empleado1.nombreCompleto());
 
 // Object.prototype.toString esta es la manera de acceder  a atributos  y metodos de manera dinamica
-console.log(empleado1.toString());
-console.log(persona1.toString());   
+console.log (empleado1.toString());
+console.log (persona1.toString());   
 
 
 
