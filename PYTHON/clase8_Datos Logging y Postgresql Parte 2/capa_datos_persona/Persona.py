@@ -8,7 +8,7 @@ Scrum Master: Miguel Rodriguez Saquilan
 # SI IMPORTAN ALGO SIEMPRE ACA ARRIBA
 from logger_base import log
 
-
+from logger_base import log
 
 #  8.1 Creación de la Clase Persona -- Alumno : Marcelo Alejandro Quispe
 class Persona:
@@ -60,7 +60,15 @@ class Persona:
         self._email = email
 
 
-# 8.2 Prueba de la Clase Persona - Alumno: 
+# 8.2 Prueba de la Clase Persona - Alumno: Giuliana Paola Diaz Luna
+
+if __name__== '__main__':
+    persona1 = Persona(1,'Juan','Perez','jperez@mail.com')
+    log.debug(persona1)
+    persona2 = Persona(nombre='Jose',apellido='Lopez',email='jlopez@mail.com')
+    log.debug(persona1)
+    persona3= Persona(id_persona = 1)
+    log.debug(persona1)
 
 
 
