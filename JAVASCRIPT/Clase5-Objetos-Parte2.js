@@ -98,8 +98,21 @@ madre.telefono = '5493513475612'
 console.log(madre.telefono);
 
 
-// 5.6 El uso de call - Alumno: 
+// 5.6 El uso de call - Alumno: Nadia Acosta
+let persona4 = {
+    nombre: 'Juan',
+    apellido: 'Perez',
+    nombreCompleto2: function(titulo, telefono){
+        return titulo+': '+this.nombre+' '+this.apellido+' '+telefono;
+    }
+}
 
+let persona5 = {
+    nombre: 'Carlos',
+    apellido: 'Lara'
+}
 
+console.log(persona4.nombreCompleto2('Lic', '54926248845')); Lic: Juan Perez 54926248845
+console.log(persona4.nombreCompleto2.call(persona5, 'Ing', '5467789809034')); Ing: Carlos Lara 5467789809034
 
 // 5.7 El uso de apply - Alumno:

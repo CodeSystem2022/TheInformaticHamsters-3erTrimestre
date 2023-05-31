@@ -1,5 +1,5 @@
 
-# 4.6 Conexión hacia la base de datos en Python con el método fetchall() - Alumno: Giuliana Paola Diaz Luna (actividad que pertenecia a Nadia Acosta)
+# 4.6 Conexión hacia la base de datos en Python con el método fetchall() - Alumno: Nadia Acosta
 
 import psycopg2 #Esto es para poder conectarnos a la base creada mediante postgress
 

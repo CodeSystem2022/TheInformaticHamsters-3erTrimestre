@@ -57,3 +57,9 @@ toString(){ // regresa un string
 console.log(empleado1.toString()); // se ejecuta el metodo de la clase hija
 
 console.log(persona1.toString()); // se ejecuta el metodo de la clase padre
+
+// 7.1 Heredar métodos  - Alumno: Nadia Acosta
+nombreCompleto(){
+    return this._nombre+' '+this._apellido;
+}
+console.log(empleado1.nombreCompleto());

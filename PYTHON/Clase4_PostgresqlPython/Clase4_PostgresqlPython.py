@@ -44,7 +44,7 @@ cursor.execute(sentencia) #De esta manera ejecutamos la sentencia
 registros = cursor.fetchall() #Recuperamos todos los registros que seran una lista
 print(registros)
 
-# 4.6 Conexión hacia la base de datos en Python con el método fetchall() - Alumno: Giuliana Paola Diaz Luna (actividad que pertenecia a Nadia Acosta)
+# 4.6 Conexión hacia la base de datos en Python con el método fetchall() - Alumno: Nadia Acosta
 # ir a archivo prueba_bd
 
 # 4.7 Cerramos la conexión y la consulta - Alumno: 

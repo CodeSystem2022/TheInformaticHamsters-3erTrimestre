@@ -26,9 +26,31 @@ console.log(persona2);
 
 
 
-// 6.2 Método Get y Set: Parte Get y Parte Set - Alumno:
+// 6.2 Método Get y Set: Parte Get y Parte Set - Alumno: Nadia Acosta
 
+class Persona{
+    constructor(nombre,apellido){
+        this._nombre = nombre; 
+        this._apellido = apellido;         
+    }
 
+    get nombre(){
+        return this._nombre;
+    }
+
+    set nombre(nombre){
+        this._nombre = nombre;
+    }
+}
+
+let persona1 = new Persona ('Giuliana', 'Diaz');
+console.log(persona1.nombre); Giuliana
+persona1.nombre = 'Nadia';
+console.log(persona1.nombre); Nadia
+let persona2 = new Persona ('Fanny', 'Luna');
+console.log(persona2.nombre); Fanny
+persona2.nombre = 'Mia'
+console.log(persona2.nombre); Mia
 
 
 

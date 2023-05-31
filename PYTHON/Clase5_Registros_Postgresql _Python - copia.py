@@ -11,8 +11,19 @@ import psycopg2 #Esto es para poder conectarnos a la base creada mediante postgr
 
 
 
-# 5.1 Uso de with y psycopg2 -- Alumno : 
+# 5.1 Uso de with y psycopg2 -- Alumno : Nadia Acosta
 
+try:
+    with conexion:
+        with conexion.cursor() as cursor:  # con este uso del with no tengo que cerrar de manera manual la bd
+            sentencia = 'SELECT * FROM persona'
+            cursor.execute(sentencia)
+            registros = cursor.fetchall() # recuperamos todos los registros que seran una lista
+            print(registros)
+except Exception as e: 
+    print(f'Ocurrio un error: {e}')
+finally:
+    conexion.close()    
 
 
 # 5.2 Función fetchone en psycopg2   - Alumno: Miguel Rodriguez Saquilan

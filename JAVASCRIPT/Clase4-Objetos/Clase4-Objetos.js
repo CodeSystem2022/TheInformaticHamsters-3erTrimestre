@@ -91,8 +91,7 @@ delete persona.apellida;
 console.log(persona);
 
 
-// 4.6 Ejecutamos desde el navegador - Alumno: Giuliana Paola Diaz Luna (ejercicio que correspondia a Nadia Acosta)
-
+// 4.6 Ejecutamos desde el navegador - Alumno: Nadia Acosta
 //ver archivo index.html
 
 // 4.7 Distintas formas de imprimir un Objeto con: Object.values()  y JSON.stringify() - Alumno: Miguel Rodriguez Saquilan
