@@ -8,15 +8,21 @@
 <br>
 
 <br>
-<h2> 👯 Integrantes: </h2>
+<h2> 👯 Colaboradores: </h2>
+<h3> Este proyecto fue iniciado por un equipo de ocho personas, pero actualmente solo quedamos cinco trabajando en él. Los demás se retiraron o se unieron a otros equipos por diferentes motivos. </h3>
 <ul>
   <li>Acosta, Nadia Yanella</li>
-  <li>Dealbera Etchechoury, Giuliana</li>
   <li>Diaz Luna, Giuliana Paola</li>
   <li>Nolan, Juan Pablo</li>
-  <li>Quiquinto, Romina Ayelen</li>
   <li>Quispe, Marcelo Alejandro</li>
   <li>Rodriguez Saquilan, Miguel</li>
+</ul>
+<br>
+
+<h2> Ex-Colaboradores: </h2>
+<ul>
+  <li>Dealbera Etchechoury, Giuliana</li>
+  <li>Quiquinto, Romina Ayelen</li>
   <li>Segovia, Jorge Nicolas</li>
 </ul>
 <br>
@@ -31,7 +37,7 @@
 | ❌ Semana 4 | *Giuliana Paola Diaz Luna* |
 | ❌Semana 5 | *Juan Pablo Nolan* |
 | ❌Semana 6 | *Miguel Rodriguez Saquilan* |
-| ❌Semana 7 | *Quiquinto Romina Ayelen* |
+| ❌Semana 7 | *Quiquinto Romina Ayelen* -> Reemplaza: *Giuliana Paola Diaz Luna* |
 | ❌Semana 8 | *Quispe Marcelo Alejandro* |
       Reasignación de semana De SM
 
