@@ -1,7 +1,7 @@
 <h1 align="center">The Informatic Hamsters - 3er Semestre 🐹</h1>
 <br>
 <p align="center">
-  <img width="75%" src="https://user-images.githubusercontent.com/86338019/236312946-27a4d317-5da8-48d4-b977-753dacf70aa9.gif" alt="HamstersDancing" />
+  <img width="50%" src="https://user-images.githubusercontent.com/86338019/236312946-27a4d317-5da8-48d4-b977-753dacf70aa9.gif" alt="HamstersDancing" />
 </p>
 
 <p align="center">
