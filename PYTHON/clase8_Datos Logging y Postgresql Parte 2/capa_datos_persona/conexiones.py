@@ -4,11 +4,25 @@ Laboratorio III: PYTHON
 Team: The Informatic Hamsters
 Scrum Master: Miguel Rodriguez Saquilan
 '''
+
+# lo que se importe va aca arriba corroborar que no se importe dos veces
+import psycopg2 as bd
+
+from logger_base import log 
  
 import sys
 
 
-# 8.3 Creación de la Clase Conexion: Parte 1 -- Alumno
+# 8.3 Creación de la Clase Conexion: Parte 1 -- Alumno Miguel Rodriguez Saquilan
+
+class Conexion:
+    _DATABASE = 'test_bd'
+    _USERNAME = 'postgres'
+    _PASSWORD = 'admin'
+    _DB_PORT = '5432'
+    _HOST = '127.0.0.1'
+    _conexion = None
+    _cursor = None
 
 
 
