@@ -9,7 +9,7 @@
 
 <br>
 <h2> 👯 Colaboradores: </h2>
-<h3> Este proyecto fue iniciado por un equipo de ocho personas, pero actualmente solo quedamos cinco trabajando en él. Los demás se retiraron o se unieron a otros equipos por diferentes motivos. </h3>
+<p> Este proyecto fue iniciado por un equipo de ocho personas, pero actualmente solo quedamos cinco trabajando en él. Los demás se retiraron o se unieron a otros equipos por diferentes motivos. </p>
 <ul>
   <li>Acosta, Nadia Yanella</li>
   <li>Diaz Luna, Giuliana Paola</li>
