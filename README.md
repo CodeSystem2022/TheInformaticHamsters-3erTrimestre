@@ -39,7 +39,9 @@
 | ❌Semana 6 | *Miguel Rodriguez Saquilan* |
 | ❌Semana 7 | *Quiquinto Romina Ayelen* -> Reemplaza: *Giuliana Paola Diaz Luna* |
 | ❌Semana 8 | *Quispe Marcelo Alejandro* |
-      Reasignación de semana De SM
+
+<br>
+    <h2>  Reasignación de semana de SM </h2>
 
 | **Sprint** | **Scrum Asignado** 👨‍💻 |
 | ------------- |:-------------:|
@@ -49,10 +51,3 @@
 | Semana 4 | *Juan Pablo Nolan* |
 | Semana 5 | *Quispe Marcelo Alejandro* |
 
-
-
-<br>
-
-<p align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/86338019/236312946-27a4d317-5da8-48d4-b977-753dacf70aa9.gif" alt="HamstersDancing" />
-</p>
