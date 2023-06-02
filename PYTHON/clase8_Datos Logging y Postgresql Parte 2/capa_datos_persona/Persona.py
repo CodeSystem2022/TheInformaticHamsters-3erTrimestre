@@ -8,7 +8,6 @@ Scrum Master: Miguel Rodriguez Saquilan
 # SI IMPORTAN ALGO SIEMPRE ACA ARRIBA
 from logger_base import log
 
-from logger_base import log
 
 #  8.1 Creación de la Clase Persona -- Alumno : Marcelo Alejandro Quispe
 class Persona:
