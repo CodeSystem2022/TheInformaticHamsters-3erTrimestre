@@ -17,7 +17,6 @@
   <li>Quispe, Marcelo Alejandro</li>
   <li>Rodriguez Saquilan, Miguel</li>
 </ul>
-<br>
 
 <h2> Ex-Colaboradores: </h2>
 <ul>
