@@ -5,13 +5,13 @@
 //Scrum Master: Miguel Rodriguez Saquilan
 */
 
-class Persona{
+class Persona{ // clase padre
 
 // poner lo que va dentro de esta clase aca.
 
     static contadorPersonas = 0; // Atributo estatico
         //email = 'Valor default email'; // Atributo no estatico
-
+        
     static get MAX_OBJ(){ // Este metodo simula una constante
         return 5;
     }
@@ -119,11 +119,16 @@ Empleado.saludar2(empleado1);
 
 
 
-// 8.3 Atributos estáticos vs No estáticos:   Alumno:
+// 8.3 Atributos estáticos vs No estáticos:   Alumno: Giuliana Paola Diaz Luna
 
+// atributo estatico: se asocia a la clase
+// atributo no estatico: se asocia con los objetos
 
+console.log(persona1.email);
+console.log(empleado1.email); //tbm se puede acceder desde el objeto de la clase hija
+//console.log(Persona.email); // no se puede acceder de la clase padre porque el atributo email es no estatico
 
-// 8.4 Uso de la palabra static: Parte 1 y 2  - Alumno:
+// 8.4 Uso de la palabra static: Parte 1 y 2  - Alumno: 
 
 
 
