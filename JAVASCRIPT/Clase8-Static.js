@@ -128,10 +128,34 @@ console.log(persona1.email);
 console.log(empleado1.email); //tbm se puede acceder desde el objeto de la clase hija
 //console.log(Persona.email); // no se puede acceder de la clase padre porque el atributo email es no estatico
 
-// 8.4 Uso de la palabra static: Parte 1 y 2  - Alumno: 
+// 8.4 Uso de la palabra static: Parte 1 y 2  - Alumno: Nadia Acosta // Modificaciones al codigo
+
+class Persona {
+
+    static contadorPersonas = 0; //Atributo estatico
+
+    constructor(nombre, apellido) {
+        this._nombre = nombre;
+        this._apellido = apellido;
+        this.idPersona = ++Persona.contadorPersonas;
+    }
+
+}
 
 
+    nombreCompleto() {
+        return this.idPersona+' '+this._nombre+' '+this._apellido;
+    }
 
+
+    console.log(persona1.toString()); 1 Juan Carlos Perez
+    console.log(persona2.toString()); 2 Maria Laura Lara
+    console.log(empleado1.toString();) 3 Maria Gimenez, Sistemas
+    console.log(Persona.contadorPersonas); 3
+
+    let persona3 = new Persona('Carla', 'Pertosi');
+    console.log(persona3.toString()); 4 Carla Pertosi
+    console.log(Persona.contadorPersonas); 4
 
 // 8.5 Creación de constantes estáticas - Alumno: Juan Pablo Nolan
 
