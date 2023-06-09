@@ -29,17 +29,17 @@ class PersonaDAO:
 
     # definimos los metodos de clase 
     @classmethod
-    def seleccionar(cls):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
+    def seleccionar (cls):
+        with Conexion.obtenerConexion ():
+            with Conexion.obtenerCursor () as cursor:
                 cursor.execute(cls._SELECCIONAR)
-                registros = cursor.fechall()
+                registros = cursor.fechall ()
                 personas = []
                 for registro in registros:
                     persona = Persona(registro[0],registro[1], registro[2],registro[3])
                     personas.append(persona)
 
-#  9.1 En la clase PersonaDao: método seleccionar: Alumno Marcelo Alejandro Quispe
+#  9.1 En la clase PersonaDao:  método seleccionar: Alumno Marcelo Alejandro Quispe
 
 @classmethod
     def actualizar (cls, persona):
@@ -52,6 +52,6 @@ class PersonaDAO:
             
 #Actualizar un registro
 
-     persona1 = Persona (1, 'Juan Jose', 'Pena', 'jjpena@mail.com')
+     persona1 = Persona(1, 'Juan Jose', 'Pena', 'jjpena@mail.com')
      personas_actualizadas = PersonaDAO.actualizar (persona1)
      log.debug (f' Personas actualizadas : {personas_actualizadas}')
