@@ -55,3 +55,19 @@ class PersonaDAO:
      persona1 = Persona(1, 'Juan Jose', 'Pena', 'jjpena@mail.com')
      personas_actualizadas = PersonaDAO.actualizar (persona1)
      log.debug (f' Personas actualizadas : {personas_actualizadas}')
+
+#  9.5 En la clase PersonaDao: Metodo Eliminar - Alumno: Juan Pablo Nolan
+
+    @classmethod
+    def eliminar(cls, persona):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                valores = (persona.id_persona,)
+                cursor.execute(cls._ELEMINAR, valores)
+                log.debug(f'Registro eliminado exitosamente: {persona}')
+                return cursor.rowcount
+            
+    #Eliminar un registro
+    persona1 = Persona(id_persona=23)
+    personas_eliminadas = PersonaDAO.eliminar(persona1)
+    log.debug(f'Personas eliminadas: {personas_eliminadas}')
