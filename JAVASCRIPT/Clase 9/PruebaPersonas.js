@@ -107,3 +107,10 @@ class Cliente extends Persona{
         ${this._fechaRegustro}`;
     }
 }
+
+// 9.6 Prueba Clase Persona - Alumno: Giuliana Paola Diaz Luna
+let persona1 = new Persona('Juan','Perez',32);
+console.log(persona1.toString());
+
+let persona2 = new Persona('Carlos','Ortega',22);
+console.log(persona2.toString());
