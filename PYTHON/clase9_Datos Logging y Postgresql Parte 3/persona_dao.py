@@ -8,6 +8,7 @@ Scrum Master: Nadia Yanella Acosta
 
 from capa_datos.log.conexion import Conexion
 import Persona
+from logger_base import log
 
 
 #  9.1 En la clase PersonaDao: método seleccionar: Alumno Miguel Rodriguez Saquilan
@@ -38,11 +39,12 @@ class PersonaDAO:
                 for registro in registros:
                     persona = Persona(registro[0],registro[1], registro[2],registro[3])
                     personas.append(persona)
+                return personas
 
 #  9.1 En la clase PersonaDao:  método seleccionar: Alumno Marcelo Alejandro Quispe
 
 @classmethod
-    def actualizar (cls, persona):
+def actualizar (cls, persona):
         with Conexion.obtenerConexion ():
             with Conexion.obtenerCursor () as cursor:
                 valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
@@ -52,9 +54,17 @@ class PersonaDAO:
             
 #Actualizar un registro
 
-     persona1 = Persona(1, 'Juan Jose', 'Pena', 'jjpena@mail.com')
-     personas_actualizadas = PersonaDAO.actualizar (persona1)
-     log.debug (f' Personas actualizadas : {personas_actualizadas}')
+persona1 = Persona(1, 'Juan Jose', 'Pena', 'jjpena@mail.com')
+personas_actualizadas = PersonaDAO.actualizar (persona1)
+log.debug (f' Personas actualizadas : {personas_actualizadas}')
+
+
+# 9.2 Prueba metodo seleccionar - Alumno: Giuliana Paola Diaz Luna
+
+if __name__ == '__main__': # si este archivo se esta ejecutando como main
+    personas =PersonaDAO.seleccionar()
+    for persona in personas:
+        log.debug(persona)
 
 #  9.5 En la clase PersonaDao: Metodo Eliminar - Alumno: Juan Pablo Nolan
 
