@@ -66,6 +66,22 @@ if __name__ == '__main__': # si este archivo se esta ejecutando como main
     for persona in personas:
         log.debug(persona)
 
+#  9.3 En la clase PersonaDao: Metodo insertar - Alumno: Nadia Acosta
+
+    @classmethod 
+    def insertar(cls, persona):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:    
+                valores = (persona.nombre, persona.apellido, persona.email)
+                cursor.execute(cls.INSERTAR, valores)
+                log.debug(f'Persona Insertada: {persona}')
+                return cursor.rowcount
+
+    #Insertar un registro 
+    persona1 = Persona(nombre='Pedrito', apellido='Romerito', email='promero@email.com')
+    personas_insertadas = PersonaDAO.insertar(persona1)
+    log.debug(f'Personas insertadas: {personas_insertadas}')
+
 #  9.5 En la clase PersonaDao: Metodo Eliminar - Alumno: Juan Pablo Nolan
 
     @classmethod
