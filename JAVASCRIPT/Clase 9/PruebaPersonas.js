@@ -114,3 +114,18 @@ console.log(persona1.toString());
 
 let persona2 = new Persona('Carlos','Ortega',22);
 console.log(persona2.toString());
+
+// 9.7 Prueba Clase empleado - Alumno: Nadia Acosta
+let empleado1 = new Empleado('Maite','Robledo', 31, 6000);
+console.log(empleado1.toString());
+
+let empleado2 = new Empleado('Carmen','Rodriguez', 28, 4000);
+console.log(empleado2.toString());
+
+
+// 9.7 Prueba Clase cliente - Alumno: Nadia Acosta
+let cliente1 = new Cliente('Miguel','Sosa', 25, new Date());
+console.log(cliente1.toString());
+
+let cliente2 = new Cliente('Lorena','Rojas', 21, new Date());
+console.log(cliente2.toString());
