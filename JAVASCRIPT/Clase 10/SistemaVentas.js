@@ -5,7 +5,7 @@ Team: The Informatic Hamsters
 Scrum Master: Giuliana Diaz
 */
 
-/* 10.3 Prueba de la clase producto - Alumno: Miguel Rodriguez*/
+
 
 /* 10.4 Creacion de la clase Orden. Parte 1 - Alumno: Juan Pablo Nolan*/
 
@@ -35,6 +35,15 @@ class Orden{
         }
     } //Fin del metodo agregarProductos
 } //Fin de la clase Orden
+
+
+
+/* 10.3 Prueba de la clase producto - Alumno: Miguel Rodriguez*/
+let producto1 = new Producto('Pantalon', 200);
+let producto2 = new Producto('Camisa', 150);
+console.log(producto1.toString());
+console.log(producto2.toString());
+
 
 
 
