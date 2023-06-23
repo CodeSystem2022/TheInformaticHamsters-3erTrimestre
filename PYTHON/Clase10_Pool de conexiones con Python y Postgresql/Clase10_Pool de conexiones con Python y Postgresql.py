@@ -27,7 +27,17 @@ Scrum Master: Giuliana Paola Diaz Luna
 
 
 
-# 10.3 Pruebas creando objetos del Pool de conexiones -- Alumno :
+# 10.3 Pruebas creando objetos del Pool de conexiones -- Alumno : Miguel Rodriguez Saquilan
+if __name__  == '__main__':
+    Conexion1 = Conexion.obtenerConexion()
+    Conexion2 = Conexion.obtenerConexion()
+    Conexion3 = Conexion.obtenerConexion()
+    Conexion4 = Conexion.obtenerConexion()
+    Conexion5 = Conexion.obtenerConexion()
+    # si ponemos otra conexion nos pasamos de las 5 objetos que teniamos permitidos
+
+    
+
 
 
 
