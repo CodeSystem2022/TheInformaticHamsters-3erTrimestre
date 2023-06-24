@@ -39,7 +39,7 @@ class Orden{
 } //Fin de la clase Orden
 
 /* 10.4 Creacion de la clase Orden. Parte 2 - Alumno: Marcelo Alejandro Quispe */
-class Orden{
+class Orden {
     static ContadorOrdenes = 0;
     static getMAX_PRODUCTOS (){
         return 5;
@@ -61,7 +61,7 @@ class Orden{
             //this._productos[this._contadorProductosAgregados++] = producto; // segunda sintaxis
         }
         else{
-            console.log ('No se pueden agregar mas productos');
+            console.log('No se pueden agregar mas productos');
         }
     } // Fin de metodo agregarProducto
 
