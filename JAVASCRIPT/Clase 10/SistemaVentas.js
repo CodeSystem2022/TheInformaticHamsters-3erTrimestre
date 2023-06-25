@@ -38,6 +38,7 @@ class Orden{
     } //Fin del metodo agregarProductos
 } //Fin de la clase Orden
 
+
 /* 10.4 Creacion de la clase Orden. Parte 2 - Alumno: Marcelo Alejandro Quispe */
 class Orden {
     static ContadorOrdenes = 0;
@@ -64,6 +65,38 @@ class Orden {
             console.log('No se pueden agregar mas productos');
         }
     } // Fin de metodo agregarProducto
+  
+/* 10.5 Prueba con la relacion de agregacion Parte 1 - Alumna: Nadia Acosta*/
+
+calcularTotal(){
+    let totalVenta = 0;
+    for (let producto of this._productos){
+        totalVenta += producto.precio;
+    } //Fin del ciclo for
+    return totalVenta
+} //Fin del metodo calcularTotal
+
+mostrarOrden () {
+    let productoOrden = '';
+    for (let producto of this._producto) {
+        productoOrden += producto.toString()+'';
+    } //Fin del ciclo for
+    console.log(`Orden: ${this._idOrden}, Total: $${this.calcularTotal()}, Producto: ${productoOrden}`)
+}
+
+
+let producto3 = new Producto('Cinturon', 50);
+let orden1 = new Orden();
+let orden2 = new Orden();
+orden1.agregarProducto(producto1);
+orden1.agregarProducto(producto2);
+orden1.agregarProducto(producto3);
+orden1.agregarProducto(producto1);
+orden1.agregarProducto(producto2);
+orden1.agregarProducto(producto3);
+orden1.mostrarOrden();
+orden2.mostrarOrden();
+
 
 
 /* 10.3 Prueba de la clase producto - Alumno: Miguel Rodriguez*/
