@@ -7,6 +7,8 @@ Scrum Master: Giuliana Diaz
 
 
 
+
+
 /* 10.4 Creacion de la clase Orden. Parte 1 - Alumno: Juan Pablo Nolan*/
 
 class Orden{
@@ -36,6 +38,34 @@ class Orden{
     } //Fin del metodo agregarProductos
 } //Fin de la clase Orden
 
+
+/* 10.4 Creacion de la clase Orden. Parte 2 - Alumno: Marcelo Alejandro Quispe */
+class Orden {
+    static ContadorOrdenes = 0;
+    static getMAX_PRODUCTOS (){
+        return 5;
+    }
+
+    constructor (){
+        this._idOrden = ++Orden.ContadorOrdenes;
+        this._productos = [];
+        this._contadorProductosAgregados = 0; 
+    }
+
+    get idOrden (){
+        return this._idOrden;
+    }
+
+    agregarProducto (producto){
+        if(this.productos.length < Orden.getMAX_PRODUCTOS()){
+            this._productos.push (producto); // tenemos 2 tipos de sintaxis :1
+            //this._productos[this._contadorProductosAgregados++] = producto; // segunda sintaxis
+        }
+        else{
+            console.log('No se pueden agregar mas productos');
+        }
+    } // Fin de metodo agregarProducto
+  
 /* 10.5 Prueba con la relacion de agregacion Parte 1 - Alumna: Nadia Acosta*/
 
 calcularTotal(){
