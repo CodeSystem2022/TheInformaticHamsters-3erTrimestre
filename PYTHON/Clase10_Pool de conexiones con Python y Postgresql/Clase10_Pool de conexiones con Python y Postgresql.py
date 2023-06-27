@@ -39,9 +39,14 @@ def obtenerPool(cls):
         else:
              return cls._pool
 
-# 10.2 Obtener una conexión a partir del Pool: Parte 2 -- Alumno :
+# 10.2 Obtener una conexión a partir del Pool: Parte 2 -- Alumno : Juan Pablo Nolan
 
-
+@classmethod
+    def obtenerConexion(cls):
+        conexion = cls.obtenerPool().getconn() #Metodo: si no existe metodo de pool lo crea, si existe lo trae
+                                               #Metodo de conexion a la base de datos
+        log.debug(f'Conexion obtenida del pool:{conexion}')
+        return conexion
 
 # 10.3 Pruebas creando objetos del Pool de conexiones -- Alumno : Miguel Rodriguez Saquilan
 if __name__  == '__main__':
